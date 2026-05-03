@@ -137,7 +137,7 @@ function scheduleFlush(): void {
 const KNOWN_SLASH_COMMANDS = new Set([
   'help', 'model', 'tools', 'context', 'reset', 'compact', 'version',
   'title', 'yolo', 'new', 'retry', 'status', 'usage', 'compress',
-  'reasoning', 'save',
+  'reasoning', 'save', 'goal', 'steer', 'queue',
 ]);
 function isSlashCommand(text: string): boolean {
   if (!text.startsWith('/')) return false;
