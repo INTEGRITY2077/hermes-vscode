@@ -155,6 +155,11 @@ ${CSS_TEMPLATE}
       <div class="menu-item" data-cmd="/yolo" data-mode="execute"><span class="cmd-name">/yolo</span> Toggle YOLO mode</div>
       <div class="menu-item" data-cmd="/reasoning" data-mode="prompt" data-arg-label="Reasoning level (none|low|medium|high|xhigh)"><span class="cmd-name">/reasoning</span> Set effort…</div>
 
+      <div class="menu-group-label">Workflow</div>
+      <div class="menu-item" data-cmd="/goal" data-mode="prompt" data-arg-label="Persistent goal (Ralph loop)"><span class="cmd-name">/goal</span> Set persistent goal…</div>
+      <div class="menu-item" data-cmd="/steer" data-mode="prompt" data-arg-label="Steering instruction"><span class="cmd-name">/steer</span> Steer agent…</div>
+      <div class="menu-item" data-cmd="/queue" data-mode="prompt" data-arg-label="Task to queue"><span class="cmd-name">/queue</span> Queue task…</div>
+
       <div class="menu-group-label danger-label">Danger</div>
       <div class="menu-item danger" data-cmd="/reset" data-mode="confirm" data-confirm="Clear the entire conversation history? This cannot be undone."><span class="cmd-name">/reset</span> Reset conversation</div>
       </div>
